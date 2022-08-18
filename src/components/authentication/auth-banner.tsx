@@ -3,10 +3,10 @@ import NextLink from 'next/link';
 import { Box, Chip, Container, Link, Tooltip, Typography } from '@mui/material';
 
 const platformIcons = {
-  Amplify: '/static/icons/amplify.svg',
-  Auth0: '/static/icons/auth0.svg',
-  Firebase: '/static/icons/firebase.svg',
-  JWT: '/static/icons/jwt.svg'
+  Amplify: '/assets/icons/amplify.svg',
+  Auth0: '/assets/icons/auth0.svg',
+  Firebase: '/assets/icons/firebase.svg',
+  JWT: '/assets/icons/jwt.svg'
 };
 
 export const AuthBanner: FC = () => (

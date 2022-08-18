@@ -30,9 +30,9 @@ interface DashboardNavbarProps extends AppBarProps {
 }
 
 const languages = {
-  en: '/static/icons/uk_flag.svg',
-  de: '/static/icons/de_flag.svg',
-  es: '/static/icons/es_flag.svg'
+  en: '/assets/icons/uk_flag.svg',
+  de: '/assets/icons/de_flag.svg',
+  es: '/assets/icons/es_flag.svg'
 };
 
 const DashboardNavbarRoot = styled(AppBar)(
@@ -211,7 +211,7 @@ const AccountButton = () => {
   // To get the user from the authContext, you can use
   // `const { user } = useAuth();`
   const user = {
-    avatar: '/static/mock-images/avatars/avatar-anika_visser.png',
+    avatar: '/assets/mock-images/avatars/avatar-anika_visser.png',
     name: 'Anika Visser'
   };
 

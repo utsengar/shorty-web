@@ -21,7 +21,7 @@ import { gtm } from '../../lib/gtm';
 import { fileToBase64 } from '../../utils/file-to-base64';
 
 const BlogPostCreate: NextPage = () => {
-  const [cover, setCover] = useState<string>('/static/mock-images/covers/cover_4.jpeg');
+  const [cover, setCover] = useState<string>('/assets/mock-images/covers/cover_4.jpeg');
 
   useEffect(() => {
     gtm.push({ event: 'page_view' });

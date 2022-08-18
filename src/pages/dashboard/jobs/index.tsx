@@ -122,7 +122,7 @@ const JobBrowse: NextPage = () => {
             >
               <img
                 alt=""
-                src="/static/mock-images/jobs/job_browse_header.svg"
+                src="/assets/mock-images/jobs/job_browse_header.svg"
               />
             </Grid>
           </Grid>

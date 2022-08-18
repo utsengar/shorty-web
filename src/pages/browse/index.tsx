@@ -29,19 +29,19 @@ const getSections = (mode: 'light' | 'dark'): Section[] => ([
       {
         title: 'Detail Lists',
         subtitle: '8 components',
-        image: `/static/browse/data-display-detail-list_${mode}.png`,
+        image: `/assets/browse/data-display-detail-list_${mode}.png`,
         path: '/browse/data-display/detail-lists'
       },
       {
         title: 'Tables',
         subtitle: '11 components',
-        image: `/static/browse/data-display-tables_${mode}.png`,
+        image: `/assets/browse/data-display-tables_${mode}.png`,
         path: '/browse/data-display/tables'
       },
       {
         title: 'Quick Stats',
         subtitle: '8 components',
-        image: `/static/browse/data-display-quick-stats_${mode}.png`,
+        image: `/assets/browse/data-display-quick-stats_${mode}.png`,
         path: '/browse/data-display/quick-stats'
       }
     ]
@@ -52,13 +52,13 @@ const getSections = (mode: 'light' | 'dark'): Section[] => ([
       {
         title: 'Grouped Lists',
         subtitle: '11 components',
-        image: `/static/browse/lists-grouped_${mode}.png`,
+        image: `/assets/browse/lists-grouped_${mode}.png`,
         path: '/browse/lists/grouped-lists'
       },
       {
         title: 'Grid Lists',
         subtitle: '6 components',
-        image: `/static/browse/lists-grid_${mode}.png`,
+        image: `/assets/browse/lists-grid_${mode}.png`,
         path: '/browse/lists/grid-lists'
       }
     ]
@@ -69,7 +69,7 @@ const getSections = (mode: 'light' | 'dark'): Section[] => ([
       {
         title: 'Forms',
         subtitle: '17 components',
-        image: `/static/browse/forms_${mode}.png`,
+        image: `/assets/browse/forms_${mode}.png`,
         path: '/browse/forms'
       }
     ]
@@ -80,7 +80,7 @@ const getSections = (mode: 'light' | 'dark'): Section[] => ([
       {
         title: 'Modals',
         subtitle: '12 components',
-        image: `/static/browse/overlays-dialog_${mode}.png`,
+        image: `/assets/browse/overlays-dialog_${mode}.png`,
         path: '/browse/modals'
       }
     ]
@@ -91,7 +91,7 @@ const getSections = (mode: 'light' | 'dark'): Section[] => ([
       {
         title: 'Charts',
         subtitle: '12 components',
-        image: `/static/browse/charts_${mode}.png`,
+        image: `/assets/browse/charts_${mode}.png`,
         path: '/browse/charts'
       }
     ]
@@ -102,25 +102,25 @@ const getSections = (mode: 'light' | 'dark'): Section[] => ([
       {
         title: 'Buttons',
         subtitle: '',
-        image: `/static/browse/base-buttons_${mode}.png`,
+        image: `/assets/browse/base-buttons_${mode}.png`,
         path: '/browse/buttons'
       },
       {
         title: 'Typography',
         subtitle: '',
-        image: `/static/browse/base-typography_${mode}.png`,
+        image: `/assets/browse/base-typography_${mode}.png`,
         path: '/browse/typography'
       },
       {
         title: 'Colors',
         subtitle: '',
-        image: `/static/browse/base-colors_${mode}.png`,
+        image: `/assets/browse/base-colors_${mode}.png`,
         path: '/browse/colors'
       },
       {
         title: 'Inputs',
         subtitle: '',
-        image: `/static/browse/base-inputs_${mode}.png`,
+        image: `/assets/browse/base-inputs_${mode}.png`,
         path: '/browse/inputs'
       }
     ]

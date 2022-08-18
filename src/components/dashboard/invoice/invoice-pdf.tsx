@@ -103,7 +103,7 @@ export const InvoicePDF: FC<InvoicePDFProps> = (props) => {
         <View style={styles.header}>
           <View>
             <Image
-              source="/static/logo.jpg"
+              source="/assets/logo.jpg"
               style={styles.brand}
             />
             <Text style={styles.h6}>

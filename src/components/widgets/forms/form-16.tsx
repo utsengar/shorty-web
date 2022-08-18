@@ -50,7 +50,7 @@ export const Form16: FC = () => (
             </div>
             <img
               alt="Amplify"
-              src="/static/icons/amplify.svg"
+              src="/assets/icons/amplify.svg"
               style={{
                 maxWidth: '53.62px',
                 width: '100%'

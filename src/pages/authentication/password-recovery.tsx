@@ -11,10 +11,10 @@ import { useAuth } from '../../hooks/use-auth';
 import { gtm } from '../../lib/gtm';
 
 const platformIcons = {
-  Amplify: '/static/icons/amplify.svg',
-  Auth0: '/static/icons/auth0.svg',
-  Firebase: '/static/icons/firebase.svg',
-  JWT: '/static/icons/jwt.svg'
+  Amplify: '/assets/icons/amplify.svg',
+  Auth0: '/assets/icons/auth0.svg',
+  Firebase: '/assets/icons/firebase.svg',
+  JWT: '/assets/icons/jwt.svg'
 };
 
 const PasswordRecovery: NextPage = () => {

@@ -80,7 +80,7 @@ export const BrowseLayout: FC = (props) => {
             >
               <img
                 alt="Components"
-                src="/static/browse/hero.svg"
+                src="/assets/browse/hero.svg"
               />
             </Grid>
           </Grid>

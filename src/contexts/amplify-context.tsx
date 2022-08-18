@@ -154,7 +154,7 @@ export const AuthProvider: FC<AuthProviderProps> = (props) => {
             isAuthenticated: true,
             user: {
               id: user.sub,
-              avatar: '/static/mock-images/avatars/avatar-anika_visser.png',
+              avatar: '/assets/mock-images/avatars/avatar-anika_visser.png',
               email: user.attributes.email,
               name: 'Anika Visser',
               plan: 'Premium'
@@ -188,7 +188,7 @@ export const AuthProvider: FC<AuthProviderProps> = (props) => {
       payload: {
         user: {
           id: user.attributes.sub,
-          avatar: '/static/mock-images/avatars/avatar-anika_visser.png',
+          avatar: '/assets/mock-images/avatars/avatar-anika_visser.png',
           email: user.attributes.email,
           name: 'Anika Visser',
           plan: 'Premium'

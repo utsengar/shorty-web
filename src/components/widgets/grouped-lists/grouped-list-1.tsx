@@ -25,7 +25,7 @@ const activities = [
     createdAt: subMinutes(now, 23).getTime(),
     customer: {
       id: '5e887a62195cc5aef7e8ca5d',
-      avatar: '/static/mock-images/avatars/avatar-marcus_finn.png',
+      avatar: '/assets/mock-images/avatars/avatar-marcus_finn.png',
       name: 'Marcus Finn'
     },
     description: 'Created account',
@@ -36,7 +36,7 @@ const activities = [
     createdAt: subMinutes(now, 56).getTime(),
     customer: {
       id: '5e887ac47eed253091be10cb',
-      avatar: '/static/mock-images/avatars/avatar-carson_darrin.png',
+      avatar: '/assets/mock-images/avatars/avatar-carson_darrin.png',
       name: 'Carson Darrin'
     },
     description: 'Subscription Purchase',
@@ -47,7 +47,7 @@ const activities = [
     createdAt: subHours(now, 2).getTime(),
     customer: {
       id: '5e887b209c28ac3dd97f6db5',
-      avatar: '/static/mock-images/avatars/avatar-fran_perez.png',
+      avatar: '/assets/mock-images/avatars/avatar-fran_perez.png',
       name: 'Fran Perez'
     },
     description: 'Submitted a ticket',
@@ -58,7 +58,7 @@ const activities = [
     createdAt: subMinutes(now, 5).getTime(),
     customer: {
       id: '5e887b7602bdbc4dbb234b27',
-      avatar: '/static/mock-images/avatars/avatar-jie_yan_song.png',
+      avatar: '/assets/mock-images/avatars/avatar-jie_yan_song.png',
       name: 'Jie Yan Song'
     },
     description: 'Subscription Purchase',
@@ -69,7 +69,7 @@ const activities = [
     createdAt: subMinutes(now, 5).getTime(),
     customer: {
       id: '5e86809283e28b96d2d38537',
-      avatar: '/static/mock-images/avatars/avatar-anika_visser.png',
+      avatar: '/assets/mock-images/avatars/avatar-anika_visser.png',
       name: 'Anika Visser'
     },
     description: 'Subscription Purchase',

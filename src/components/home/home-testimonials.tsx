@@ -34,7 +34,7 @@ export const HomeTestimonials: FC = (props) => (
         }}
       >
         <Avatar
-          src="/static/home/olivier.png"
+          src="/assets/home/olivier.png"
           sx={{ mr: 2 }}
           variant="rounded"
         />

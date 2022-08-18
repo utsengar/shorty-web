@@ -31,7 +31,7 @@ const now = new Date();
 const customers = [
   {
     id: '5e887ac47eed253091be10cb',
-    avatar: '/static/mock-images/avatars/avatar-carson_darrin.png',
+    avatar: '/assets/mock-images/avatars/avatar-carson_darrin.png',
     city: 'Cleveland',
     country: 'USA',
     currency: '$',
@@ -47,7 +47,7 @@ const customers = [
   },
   {
     id: '5e887b209c28ac3dd97f6db5',
-    avatar: '/static/mock-images/avatars/avatar-fran_perez.png',
+    avatar: '/assets/mock-images/avatars/avatar-fran_perez.png',
     city: 'Atlanta',
     country: 'USA',
     currency: '$',
@@ -63,7 +63,7 @@ const customers = [
   },
   {
     id: '5e887b7602bdbc4dbb234b27',
-    avatar: '/static/mock-images/avatars/avatar-jie_yan_song.png',
+    avatar: '/assets/mock-images/avatars/avatar-jie_yan_song.png',
     city: 'North Canton',
     country: 'USA',
     currency: '$',
@@ -79,7 +79,7 @@ const customers = [
   },
   {
     id: '5e86809283e28b96d2d38537',
-    avatar: '/static/mock-images/avatars/avatar-anika_visser.png',
+    avatar: '/assets/mock-images/avatars/avatar-anika_visser.png',
     city: 'Madrid',
     country: 'Spain',
     currency: '$',
@@ -95,7 +95,7 @@ const customers = [
   },
   {
     id: '5e86805e2bafd54f66cc95c3',
-    avatar: '/static/mock-images/avatars/avatar-miron_vitold.png',
+    avatar: '/assets/mock-images/avatars/avatar-miron_vitold.png',
     city: 'San Diego',
     country: 'USA',
     currency: '$',

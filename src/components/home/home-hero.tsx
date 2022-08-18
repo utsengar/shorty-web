@@ -150,7 +150,7 @@ export const HomeHero: FC = (props) => {
         >
           <img
             alt=""
-            src={`/static/home/hero_${theme.palette.mode}.png`}
+            src={`/assets/home/hero_${theme.palette.mode}.png`}
           />
         </Box>
       </Box>

@@ -58,7 +58,7 @@ const NotFound: NextPage = () => {
             <Box
               alt="Under development"
               component="img"
-              src={`/static/error/error404_${theme.palette.mode}.svg`}
+              src={`/assets/error/error404_${theme.palette.mode}.svg`}
               sx={{
                 height: 'auto',
                 maxWidth: '100%',

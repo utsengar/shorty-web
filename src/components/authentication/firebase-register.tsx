@@ -88,7 +88,7 @@ export const FirebaseRegister: FC = (props) => {
         <Box
           alt="Google"
           component="img"
-          src="/static/icons/google.svg"
+          src="/assets/icons/google.svg"
           sx={{ mr: 1 }}
         />
         Google

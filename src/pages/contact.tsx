@@ -103,7 +103,7 @@ const Contact: NextPage = () => {
             <Box sx={{ pt: 2 }}>
               <img
                 alt="logoipsum1"
-                src="/static/contact/contact_logos.svg"
+                src="/assets/contact/contact_logos.svg"
                 style={{ maxWidth: '100%' }}
               />
             </Box>

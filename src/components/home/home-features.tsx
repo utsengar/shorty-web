@@ -28,7 +28,7 @@ interface Feature {
 const getFeatures = (theme: string): Feature[] => ([
   {
     icon: LockIcon,
-    image: `/static/home/auth_${theme}.png`,
+    image: `/assets/home/auth_${theme}.png`,
     items: ['Amplify', 'Auth0', 'Firebase', 'JWT'],
     subheader: 'Identity services fully integrated. Choose from:',
     title: 'Auth System'
@@ -46,12 +46,12 @@ const getFeatures = (theme: string): Feature[] => ([
       'And many more'
     ],
     subheader: 'Get started with ready-to-deploy templates.',
-    image: `/static/home/flows_${theme}.png`,
+    image: `/assets/home/flows_${theme}.png`,
     title: 'Management Pages'
   },
   {
     icon: TemplateIcon,
-    image: `/static/home/landing_${theme}.png`,
+    image: `/assets/home/landing_${theme}.png`,
     items: ['Home or Landing', 'Contact Us', 'Blog', 'Pricing'],
     subheader: 'We also have included all the necessary layouts for a startup.',
     title: 'Landing Pages'

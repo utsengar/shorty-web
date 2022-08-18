@@ -115,7 +115,7 @@ const JobCreate: NextPage = () => {
             sm={4}
             xs={12}
             sx={{
-              backgroundImage: 'url(/static/mock-images/jobs/create_job_background.png)',
+              backgroundImage: 'url(/assets/mock-images/jobs/create_job_background.png)',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover',

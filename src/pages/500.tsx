@@ -58,7 +58,7 @@ const ServerError: NextPage = () => {
             <Box
               alt="Under development"
               component="img"
-              src={`/static/error/error500_${theme.palette.mode}.svg`}
+              src={`/assets/error/error500_${theme.palette.mode}.svg`}
               sx={{
                 height: 'auto',
                 maxWidth: '100%',

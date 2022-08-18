@@ -41,7 +41,7 @@ export const HomeDesigners: FC = (props) => {
             >
               <img
                 alt="For designers"
-                src={`/static/home/designers_${theme.palette.mode}.png`}
+                src={`/assets/home/designers_${theme.palette.mode}.png`}
               />
             </Box>
           </Grid>

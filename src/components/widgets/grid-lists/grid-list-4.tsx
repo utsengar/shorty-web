@@ -15,9 +15,9 @@ import {
 const applicants = [
   {
     id: '5e887a62195cc5aef7e8ca5d',
-    avatar: '/static/mock-images/avatars/avatar-marcus_finn.png',
+    avatar: '/assets/mock-images/avatars/avatar-marcus_finn.png',
     commonConnections: 12,
-    cover: '/static/mock-images/covers/cover_2.jpg',
+    cover: '/assets/mock-images/covers/cover_2.jpg',
     name: 'Marcus Finn',
     skills: [
       'User Experience',
@@ -29,9 +29,9 @@ const applicants = [
   },
   {
     id: '5e887ac47eed253091be10cb',
-    avatar: '/static/mock-images/avatars/avatar-carson_darrin.png',
+    avatar: '/assets/mock-images/avatars/avatar-carson_darrin.png',
     commonConnections: 5,
-    cover: '/static/mock-images/covers/cover_3.jpg',
+    cover: '/assets/mock-images/covers/cover_3.jpg',
     name: 'Carson Darrin',
     skills: [
       'User Interface',
@@ -42,9 +42,9 @@ const applicants = [
   },
   {
     id: '5e86809283e28b96d2d38537',
-    avatar: '/static/mock-images/avatars/avatar-anika_visser.png',
+    avatar: '/assets/mock-images/avatars/avatar-anika_visser.png',
     commonConnections: 17,
-    cover: '/static/mock-images/covers/cover_1.jpg',
+    cover: '/assets/mock-images/covers/cover_1.jpg',
     name: 'Anika Visser',
     skills: [
       'BackEnd development',

@@ -37,7 +37,7 @@ export const OverviewBanner: FC<OverviewBannerProps> = (props) => {
       >
         <img
           alt=""
-          src="/static/banner-illustration.png"
+          src="/assets/banner-illustration.png"
         />
       </Box>
       <div>

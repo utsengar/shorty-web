@@ -42,37 +42,37 @@ const sortCountries = (
 
 const countries: Country[] = [
   {
-    flag: '/static/icons/us_flag.svg',
+    flag: '/assets/icons/us_flag.svg',
     name: 'United States',
     seo: 40,
     visits: 31200
   },
   {
-    flag: '/static/icons/uk_flag.svg',
+    flag: '/assets/icons/uk_flag.svg',
     name: 'United Kingdom',
     seo: 47,
     visits: 12700
   },
   {
-    flag: '/static/icons/ru_flag.svg',
+    flag: '/assets/icons/ru_flag.svg',
     name: 'Russia',
     seo: 65,
     visits: 10360
   },
   {
-    flag: '/static/icons/ca_flag.svg',
+    flag: '/assets/icons/ca_flag.svg',
     name: 'Canada',
     seo: 23,
     visits: 5749
   },
   {
-    flag: '/static/icons/de_flag.svg',
+    flag: '/assets/icons/de_flag.svg',
     name: 'Germany',
     seo: 45,
     visits: 2932
   },
   {
-    flag: '/static/icons/es_flag.svg',
+    flag: '/assets/icons/es_flag.svg',
     name: 'Spain',
     seo: 56,
     visits: 200
