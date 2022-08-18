@@ -1,0 +1,21 @@
+{
+    "appName": "shorty",
+    "roleName": "pinpointLambdaRolea32bcc5b",
+    "cloudformationPolicyName": "cloudformationPolicya32bcc5b",
+    "cloudWatchPolicyName": "cloudWatchPolicya32bcc5b",
+    "pinpointPolicyName": "pinpointPolicya32bcc5b",
+    "authPolicyName": "pinpoint_amplify_a32bcc5b",
+    "unauthPolicyName": "pinpoint_amplify_a32bcc5b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

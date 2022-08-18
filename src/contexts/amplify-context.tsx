@@ -2,7 +2,8 @@ import { createContext, useEffect, useReducer } from 'react';
 import type { FC, ReactNode } from 'react';
 import PropTypes from 'prop-types';
 import Amplify, { Auth } from 'aws-amplify';
-import { amplifyConfig } from '../config';
+//import { amplifyConfig } from '../config';
+import amplifyConfig from '../aws-exports';
 import type { User } from '../types/user';
 
 Amplify.configure(amplifyConfig);
