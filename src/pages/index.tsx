@@ -27,14 +27,14 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <HomeHero />
-        <Divider />
+        {/* <Divider />
         <HomeDevelopers />
         <Divider />
         <HomeDesigners />
         <HomeTestimonials />
         <HomeFeatures />
         <Divider />
-        <HomeClients />
+        <HomeClients /> */}
       </main>
     </>
   );
