@@ -19,7 +19,7 @@ import { SplashScreen } from '../components/splash-screen';
 import { SettingsConsumer, SettingsProvider } from '../contexts/settings-context';
 import { AuthConsumer, AuthProvider } from '../contexts/amplify-context';
 import { gtmConfig } from '../config';
-import { gtm } from '../lib/gtm'
+import { gtm } from '../lib/gtm';
 import { store } from '../store';
 import { createTheme } from '../theme';
 import { createEmotionCache } from '../utils/create-emotion-cache';

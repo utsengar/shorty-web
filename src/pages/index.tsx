@@ -15,7 +15,6 @@ import { HomeTestimonials } from '../components/home/home-testimonials';
 const Home: NextPage = () => {
   useEffect(() => {
     //gtm.push({ event: 'page_view' })
-    Analytics.record({ name: 'index_route'})
   }, []);
 
   return (
